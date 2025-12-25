@@ -33,7 +33,7 @@ pipeline {
         nexusArtifactUploader(
           nexusVersion: 'nexus3',
           protocol: 'http',
-          nexusUrl: '<NEXUS-IP>:8081',
+          nexusUrl: '172.31.39.56 :8081',
           repository: 'maven-releases',
           credentialsId: 'nexus-creds',
           groupId: 'com.devops.demo',
